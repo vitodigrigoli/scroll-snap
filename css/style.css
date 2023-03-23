@@ -26,14 +26,13 @@
 html, body { 
 	color:var(--light-text-color);
 	font-family:'Source Sans Pro', sans-serif;
-  height: 100%;
  
   }
   main{
     
-    height: 100svh;
+    height: 100vh;
     scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100%);
+    scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
@@ -44,7 +43,7 @@ html, body {
 
 
 
-section{height: 100%; scroll-snap-align: end; overflow-y: hidden;   }
+section{height: 100vh; scroll-snap-align: end; overflow-y: hidden;   }
 section.in-view{}
 
 img{width: 100%; height: auto;}
