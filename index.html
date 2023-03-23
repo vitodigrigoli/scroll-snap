@@ -649,6 +649,103 @@
 
 
 
+		<!-- Footer -->
+		<div class="footer scroll">
+
+			<div class="container">
+
+				<div class="footer__header">
+					<div class="footer__header__logo">
+						<img src="./assets/img/logo.png" alt="">
+						<p class="text--2">genius for genius.</p>
+						<p>
+							<a href="tel:09221757680"><i class="fa-solid fa-phone-volume"></i>0922 175 7680</a>
+							<a href="mailto:consulting@geforge.it"><i class="fa-solid fa-at"></i>consulting@geforge.it</a>
+						</p>
+					</div>
+				</div>
+	
+				<div class="footer__content">
+
+					<div class="footer__content__item">
+						<h3 class="text--3">Damaso Scibetta</h3>
+						<p>Chief Executive Officer</p>
+						<p><a href="tel:+393886896817">+39 388 689 6817</a></p>
+						<p><a href="mailto:d.scibetta@geforge.it">d.scibetta@geforge.it</a></p>
+					</div>
+
+					<div class="footer__content__item">
+						<h3 class="text--3">Sofia Pecoraro</h3>
+						<p>Sales Manager</p>
+						<p><a href="tel:+393899343918">+39 389 934 3918</a></p>
+						<p><a href="mailto:s.pecoraro@geforge.it">s.pecoraro@geforge.it</a></p>
+					</div>
+
+					<div class="footer__content__item">
+						<h3 class="text--3">Gianmarco De Santis</h3>
+						<p>Chief Operating Officer</p>
+						<p><a href="tel:+393279076820">+39 327 907 6820</a></p>
+						<p><a href="mailto:g.desantis@geforge.it">g.desantis@geforge.it</a></p>
+					</div>
+
+				</div>
+
+				<div class="footer__credits">
+					<p>GeForGe SRLS - P.IVA 03060450842 - Via Madonna del Carmelo, 18 - S. Giovanni Gemini (AG)</p>
+					<p>
+						<a href="https://www.facebook.com/groups/geforge/"><i class="fa-brands fa-square-facebook"></i></a>
+						<a href="https://www.instagram.com/ge.forge/"><i class="fa-brands fa-instagram"></i></a>
+						<a href="https://it.linkedin.com/company/geforge"><i class="fa-brands fa-linkedin"></i></a>
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="popup" data-department="form">
+			<div class="container">
+
+				<div class="popup__img">
+				</div>
+
+				<div class="popup__text">
+					<h3 class="text--2">Contattaci</h3>
+					<form class="form" id="form" method="post" action="" >
+						<input type="text" placeholder="Il tuo nome" id="name" name="name" required>
+						<input type="mail" placeholder="La tue email" id="email" name="email" required>
+						<input type="tel" placeholder="Il tuo telefono" id="phone" name="phone" >
+						<textarea id="message" name="message" rows="5"  placeholder="Scrivi il tuo messaggio qui..." required></textarea>
+						<div class="form__checkbox">
+							<input type="checkbox" name="privacy" required>
+							<p>Acconsento al trattamento dei dati personali e all'informativa sulla <a href="https://www.iubenda.com/privacy-policy/17970949">privacy</a>.</p>
+						</div>
+						
+						<input class="none" name="hp" id="none">
+
+						<div class="form__buttons">
+							<input class="button" type="submit" value="Invia ora">
+							<div class="button button--outline" onclick="closePopup()">Chiudi</div>
+						</div>
+
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="popup" data-department="rs_form" id="popup_rs">
+
+			<div class="container">
+
+				<div class="popup__text">
+				  <h3 class="text--3" id="rs_form">Stiamo inviando il tuo messaggio. Attendi...</h3>
+				  <div class="four-dots"></div>
+				  <button class="button" onclick="closePopup()">Chiudi</button>
+				</div>
+
+			</div>
+		</div>
 
 		<script src="./js/jquery-3.6.3.js"></script>
     <script
@@ -683,105 +780,6 @@
 </script-->
 
 	</main>
-
-			<!-- Footer -->
-			<div class="footer scroll">
-
-				<div class="container">
-	
-					<div class="footer__header">
-						<div class="footer__header__logo">
-							<img src="./assets/img/logo.png" alt="">
-							<p class="text--2">genius for genius.</p>
-							<p>
-								<a href="tel:09221757680"><i class="fa-solid fa-phone-volume"></i>0922 175 7680</a>
-								<a href="mailto:consulting@geforge.it"><i class="fa-solid fa-at"></i>consulting@geforge.it</a>
-							</p>
-						</div>
-					</div>
-		
-					<div class="footer__content">
-	
-						<div class="footer__content__item">
-							<h3 class="text--3">Damaso Scibetta</h3>
-							<p>Chief Executive Officer</p>
-							<p><a href="tel:+393886896817">+39 388 689 6817</a></p>
-							<p><a href="mailto:d.scibetta@geforge.it">d.scibetta@geforge.it</a></p>
-						</div>
-	
-						<div class="footer__content__item">
-							<h3 class="text--3">Sofia Pecoraro</h3>
-							<p>Sales Manager</p>
-							<p><a href="tel:+393899343918">+39 389 934 3918</a></p>
-							<p><a href="mailto:s.pecoraro@geforge.it">s.pecoraro@geforge.it</a></p>
-						</div>
-	
-						<div class="footer__content__item">
-							<h3 class="text--3">Gianmarco De Santis</h3>
-							<p>Chief Operating Officer</p>
-							<p><a href="tel:+393279076820">+39 327 907 6820</a></p>
-							<p><a href="mailto:g.desantis@geforge.it">g.desantis@geforge.it</a></p>
-						</div>
-	
-					</div>
-	
-					<div class="footer__credits">
-						<p>GeForGe SRLS - P.IVA 03060450842 - Via Madonna del Carmelo, 18 - S. Giovanni Gemini (AG)</p>
-						<p>
-							<a href="https://www.facebook.com/groups/geforge/"><i class="fa-brands fa-square-facebook"></i></a>
-							<a href="https://www.instagram.com/ge.forge/"><i class="fa-brands fa-instagram"></i></a>
-							<a href="https://it.linkedin.com/company/geforge"><i class="fa-brands fa-linkedin"></i></a>
-						</p>
-					</div>
-	
-				</div>
-	
-			</div>
-	
-			<div class="popup" data-department="form">
-				<div class="container">
-	
-					<div class="popup__img">
-					</div>
-	
-					<div class="popup__text">
-						<h3 class="text--2">Contattaci</h3>
-						<form class="form" id="form" method="post" action="" >
-							<input type="text" placeholder="Il tuo nome" id="name" name="name" required>
-							<input type="mail" placeholder="La tue email" id="email" name="email" required>
-							<input type="tel" placeholder="Il tuo telefono" id="phone" name="phone" >
-							<textarea id="message" name="message" rows="5"  placeholder="Scrivi il tuo messaggio qui..." required></textarea>
-							<div class="form__checkbox">
-								<input type="checkbox" name="privacy" required>
-								<p>Acconsento al trattamento dei dati personali e all'informativa sulla <a href="https://www.iubenda.com/privacy-policy/17970949">privacy</a>.</p>
-							</div>
-							
-							<input class="none" name="hp" id="none">
-	
-							<div class="form__buttons">
-								<input class="button" type="submit" value="Invia ora">
-								<div class="button button--outline" onclick="closePopup()">Chiudi</div>
-							</div>
-	
-						</form>
-	
-					</div>
-				</div>
-			</div>
-	
-			<div class="popup" data-department="rs_form" id="popup_rs">
-	
-				<div class="container">
-	
-					<div class="popup__text">
-					  <h3 class="text--3" id="rs_form">Stiamo inviando il tuo messaggio. Attendi...</h3>
-					  <div class="four-dots"></div>
-					  <button class="button" onclick="closePopup()">Chiudi</button>
-					</div>
-	
-				</div>
-			</div>
-	
 	
 	<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 	<script src="./js/script.js"></script>
