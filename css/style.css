@@ -31,10 +31,8 @@ html, body {
   main{
     
     height: 100vh;
-    height: 100dvh;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
-    scroll-snap-points-y: repeat(100dvh);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
