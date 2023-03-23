@@ -31,9 +31,9 @@ html, body {
   }
   main{
     
-    height: 100svh;
+    height: -webkit-fill-available;
     scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100svh);
+    scroll-snap-points-y: repeat(-webkit-fill-available);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
@@ -44,7 +44,7 @@ html, body {
 
 
 
-section{height: 100svh; scroll-snap-align: end; overflow-y: hidden;   }
+section{height: -webkit-fill-available; scroll-snap-align: end; overflow-y: hidden;   }
 section.in-view{}
 
 img{width: 100%; height: auto;}
