@@ -44,7 +44,9 @@ html, body {
 
 
 
-section{height: 100vh; height: 100dvh; scroll-snap-align: end; overflow-y: hidden;  background-color: #d32525;  }
+section{height: 100vh; height: 100dvh; scroll-snap-align: end; overflow-y: hidden;  background-color: #683333; visibility: hidden; opacity: 0;; }
+section.in-view{visibility: visible; opacity: 1;}
+
 img{width: 100%; height: auto;}
 
 h1, h2, h3, h4, h5, h6 {font-family:'Kanit',sans-serif; margin-block-end: 1rem;}
