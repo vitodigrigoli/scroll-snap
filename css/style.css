@@ -33,7 +33,7 @@ html, body {
     
     height: 100svh;
     scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(100svh);
+    scroll-snap-points-y: repeat(100%);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
