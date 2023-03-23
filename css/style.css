@@ -31,10 +31,10 @@ html, body {
   main{
     
     height: 100vh;
-    height: 100svh;
+    height: 100dvh;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
-    scroll-snap-points-y: repeat(100svh);
+    scroll-snap-points-y: repeat(100dvh);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
@@ -45,7 +45,7 @@ html, body {
 
 
 
-section{height: 100vh; height: 100svh; scroll-snap-align: end; overflow-y: hidden;   }
+section{height: 100vh; height: 100dvh; scroll-snap-align: end; overflow-y: hidden;   }
 section.in-view{}
 
 img{width: 100%; height: auto;}
