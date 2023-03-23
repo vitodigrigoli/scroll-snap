@@ -27,13 +27,16 @@ html, body {
 	color:var(--light-text-color);
 	font-family:'Source Sans Pro', sans-serif;
   height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
  
   }
   main{
     
-    height: -webkit-fill-available;
+    height: 100svh;
     scroll-snap-type: mandatory;
-    scroll-snap-points-y: repeat(-webkit-fill-available);
+    scroll-snap-points-y: repeat(100svh);
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     scroll-snap-stop: always;
@@ -44,7 +47,7 @@ html, body {
 
 
 
-section{height: -webkit-fill-available; scroll-snap-align: end; overflow-y: hidden;   }
+section{height: 100svh; scroll-snap-align: end; overflow-y: hidden;   }
 section.in-view{}
 
 img{width: 100%; height: auto;}
