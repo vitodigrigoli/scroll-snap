@@ -31,7 +31,6 @@ html, body {
   main{
     
     height: 100vh;
-    height: 100dvh;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     background-color: #25D366;
@@ -43,7 +42,7 @@ html, body {
 
 
 
-section{height: 100vh; scroll-snap-align: end; overflow-y: hidden;  background-color: #d38525;  }
+section{height: 100vh; scroll-snap-align: end; overflow-y: hidden;  background-color: #d32525;  }
 img{width: 100%; height: auto;}
 
 h1, h2, h3, h4, h5, h6 {font-family:'Kanit',sans-serif; margin-block-end: 1rem;}
